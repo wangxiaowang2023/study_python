@@ -21,8 +21,10 @@ def fun1(list1):
     n = len(list1)
     for i in range(n):
         for j in range(n - i - 1):
-            if list1[j]>list1[j+1]:
-                list1[j],list1[j+1]=list1[j+1],list1[j]
+            if list1[j] > list1[j + 1]:
+                list1[j], list1[j + 1] = list1[j + 1], list1[j]
+                # setattr()
+                # return
 
 
 print(list_r)
