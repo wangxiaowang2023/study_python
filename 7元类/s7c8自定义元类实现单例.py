@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import s8c9自定义元类实现日志
+
 class Mymeta(type):
     def __init__(cls, name, bases, dic):
         super().__init__(name, bases, dic)
