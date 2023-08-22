@@ -6,7 +6,7 @@ lis1 = ["asd","asdasda","wqeerw","213"]
 a=enumerate(lis1)
 for i in a:
     print(i)
-print("sadas")
+
 
 
 print(dir(lis1))
